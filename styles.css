@@ -350,4 +350,22 @@ nav {
     }
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .spoiler {
+    filter: blur(5px);
+    transition: all 300ms ease;
+  }
+
+  .spoiler:hover {
+    filter: blur(0px);
+  }
+  
+
 
