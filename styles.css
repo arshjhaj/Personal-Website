@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 *{
     font-family: 'Lato', 'sans-serif';
     padding: 0;
@@ -149,6 +150,204 @@ nav {
 
 .heading{
     padding: 20px
+}
+
+.skills_section{
+    width: 100%;
+    height: 60vh;
+    padding: 5px 6%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    font-size: 19px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.skills_head p{
+    font-size: 19px;
+    
+}
+
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.skill_bar .bar .python{
+    width: 90%;
+    animation: python 2s;
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .java{
+    width: 90%;
+    animation: java 2s;
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .javascript{
+    width: 90%;
+    animation: javascript 2s;
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .htcs{
+    width: 80%;
+    animation: htcs 2s;
+}
+@keyframes htcs {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .react{
+    width: 40%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 40%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .cplusplus{
+    width: 70%;
+    animation: cplusplus 2s;
+}
+@keyframes cplusplus {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .sql{
+    width: 60%;
+    animation: sql 2s;
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+
+.skill_bar .bar .matlab{
+    width: 40%;
+    animation: matlab 2s;
+}
+@keyframes matlab {
+    0%{
+        width: 0%;
+    }100%{
+        width: 40%;
+    }
+}
+
+
+.skill_bar .bar .mongo{
+    width: 40%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }100%{
+        width: 40%;
+    }
+}
+
+.skill_bar .bar .csharp{
+    width: 60%;
+    animation: csharp 2s;
+}
+@keyframes csharp {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+
+
+.skill_bar .bar .ts{
+    width: 80%;
+    animation: ts 2s;
+}
+@keyframes ts {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
 }
 
 
